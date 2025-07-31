@@ -17,8 +17,8 @@ Di = 1
 N = 12
 #acomplamiento \Lambda
 c_momento_momento = 0
-#número de realizaciones para hacer la media
-numero = 1000
+#número de realizaciones para hacer la media n = 1000 or 2000
+numero = 2000
 
 
 z0 = 0.9999
