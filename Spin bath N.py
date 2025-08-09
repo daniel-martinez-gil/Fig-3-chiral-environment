@@ -62,8 +62,9 @@ same as considering Ei = 50, Di = 1, c_momento_momento = 1 becasuse the ratio
 between them is the same (Ei/Di = 50), and the same with Lambda.
 Only the time of the simulation changes, but the result is the same.
 In the simulation I consider the first case, considering t = 100 to ensure 
-convergence of the results. Otherwisethe time has to be considered with a factor
-of 1e-12, which is more computationally demandant.
+convergence of the results. Otherwisethe time has to be considered with a correction
+factor proportional to the order of magnitude of 
+Ei, Di, Lambda, which is more computationally demandant.
 """
 
 # Tiempo de integración
@@ -153,6 +154,7 @@ plt.show()
 dispersion_media = np.sum(sigma[500:])/(500)
 print(dispersion_media)
 """
+
 
 
 
